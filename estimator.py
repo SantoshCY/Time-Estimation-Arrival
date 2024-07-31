@@ -4,7 +4,7 @@ import sklearn
 from sklearn.linear_model import LinearRegression
 import pickle
 
-model = pickle.load(open(r"C:\Users\91830\Streamlit Elite-21\Time of arrival prediction\estimator.pkl","rb"))
+model = pickle.load(open(r"estimator.pkl","rb"))
 
 start_lat = st.number_input("Enter the start latitude:",)
 start_lang = st.number_input("Enter the start longitude:")
